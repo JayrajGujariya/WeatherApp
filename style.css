@@ -33,8 +33,23 @@ body{
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
+    font-size:16px;
 }
+@media (max-width: 360px) and (max-height: 740px) {
+    .search input {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 8px 22px;
+        height: 55px;
+        border-radius: 25px;
+        flex: 1;
+        margin-right: 14px;
+        font-size:12px;
+    }
+  }
+  
 .search button{
     border: 0;
     outline: 0;
