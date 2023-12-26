@@ -90,3 +90,11 @@ body{
     margin-top: 10px;
     display: none;
 }
+footer{
+    display: flex;
+    background: #222;
+    color: white;
+    padding: 9px 20px;
+    align-items: center;
+    justify-content: center;
+}
